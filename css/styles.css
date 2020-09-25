@@ -1,0 +1,181 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+
+/* Heading Section */
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Coloured / White Sections */
+.coloured-section {
+  background-color: #FF4C68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+
+/* Download Item */
+.download-item {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  z-index: 0;
+  right: 30%;
+}
+
+/* Features Section */
+.features-icon {
+  color: #ef8172;
+  margin-bottom: 16px;
+}
+
+#features {
+  position: relative;
+}
+
+p {
+  color: #8F8F8F;
+}
+
+.features-icon:hover{
+  color: #FF4C68;
+}
+
+.features-box {
+  padding: 4.5%;
+}
+
+.feature-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.testimonial-image {
+  border-radius:  100%;
+  width: 10%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 2% 3%;
+}
+
+.pricing-section {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* Call to Action Section */
+.cta-btn {
+  margin: 20px;
+}
+
+
+/* Footer Section */
+
+.social-media {
+  margin: 20px 10px;
+}
